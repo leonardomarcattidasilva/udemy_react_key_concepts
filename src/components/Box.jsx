@@ -1,8 +1,6 @@
 import React from "react";
 
 const Box = props => {
-   console.log('box');
-   
   const {data: {title, image, description}, className, onClick, id} = props
   return (
       <li className={className} id={id}>
