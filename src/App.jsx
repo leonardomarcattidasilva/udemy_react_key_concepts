@@ -5,8 +5,6 @@ import Concepts from './components/Concepts';
 import useItems from './hooks/useItems';
 
 const App = () => {
-   console.log('app');
-   
    const {items, removeItem} = useItems()
   return (
     <div>
