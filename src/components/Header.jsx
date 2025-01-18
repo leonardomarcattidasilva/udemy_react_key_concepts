@@ -1,8 +1,6 @@
 import React, {memo} from "react";
 
 const Header = memo(function Header({src}) {
-   console.log('header');
-   
    return <header>
       <img src={src} alt="Medal badge with a star" />
       <h1>Key React Concepts</h1>
