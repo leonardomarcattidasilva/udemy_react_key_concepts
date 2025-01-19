@@ -6,12 +6,10 @@ import useItems from './hooks/useItems';
 
 const App = () => {
    const { items, removeItem } = useItems()
-   return (
-      <div>
-         <Header src={keyConceptsImage} />
-         <Concepts id="concepts" onRemove={removeItem} items={items} />
-      </div>
-   );
+   return <>
+      <Header src={keyConceptsImage} />
+      <Concepts id="concepts" onRemove={removeItem} items={items} />
+   </>
 }
 
 export default App;
